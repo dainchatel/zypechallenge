@@ -1,0 +1,34 @@
+.video-list-el {
+  margin: 2rem auto;
+  position: relative;
+  width: 80%;
+}
+
+.video-list-img {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: relative;
+}
+
+.video-list-h2 {
+  position: absolute;
+  bottom: 25px;
+  right: 0;
+  color: white;
+  background-color: rgba(0,0,0,.8);
+  text-transform: uppercase;
+  font-family: 'Roboto', 'Arial';
+  font-weight: 200;
+  font-size: 12px;
+  max-width: 50vw;
+  padding: 5px;
+  text-align: right;
+}
+
+@media screen and (min-width: 768px) {
+    .video-list-h2 {
+        bottom: 75px;
+    }
+}
+
